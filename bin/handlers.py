@@ -3,7 +3,7 @@ from telegram.ext import CallbackContext
 from telegram.ext.dispatcher import run_async
 
 from .drake import drake
-from .helpers import helper_b, helper_despacito, helper_fry, helper_generate, \
+from .helpers import helper_b, helper_despacito, helper_fry, helper_generate,
 	helper_gif, helper_image, helper_text
 from .utils.logs import log_command, log_error, log_message
 from .utils.text import changes, chars, commands, cookbook, vaportext
